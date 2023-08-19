@@ -1,0 +1,73 @@
+
+input{
+    padding: 5px;
+    
+    background: white ;
+    border-radius: 5px;
+    width: 100%;
+   
+}
+
+input:focus{
+    
+    background: #F5F5F5;
+    
+}
+
+button{
+    background : #87CEFA;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 8px;
+    
+}
+
+body{
+    padding-top: 15%;
+    background: #87CEFA;
+   
+}
+ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.Container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;  
+    min-height: 50vh;
+    flex-direction: column;
+    background: #708090;
+   height: 50%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.liBox{
+    padding: 5px;
+    width: 100%;
+}
+.boxButton{
+    display: flex;
+    align-items: center;
+}
